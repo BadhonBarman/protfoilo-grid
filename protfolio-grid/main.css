@@ -1,0 +1,27 @@
+body{background: #111;}
+
+.container{
+    padding: 1em;
+    column-count: 4;
+}
+
+img{
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.container{
+    column-count: 3;
+}
+
+@media(max-width: 991px){
+    .container{
+        column-count: 2;
+    }
+}
+
+@media(max-width: 480px){
+    .container{
+        column-count: 1;
+    }
+}
